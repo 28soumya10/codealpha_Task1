@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(193, 217, 237);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+input[type="text"]{
+   background-color: rgb(250, 224, 228);
+   color: black;
+   font-weight: bold;
+}
+
+input[type="email"]{
+    background-color: rgb(250, 224, 228);
+    color: black;
+    font-weight: bold;
+
+}
+
+textarea[id="feedback"]{
+    background-color: rgb(250, 224, 228);
+    color: black;
+    font-weight: bold;
+
+
+}
